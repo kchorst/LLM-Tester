@@ -9,6 +9,15 @@ It provides a clean, controlled environment for measuring:
 - **Server availability**  
 - **Streaming stability**  
 
+## License: Non-Commercial Use Only
+
+This repository contains source-available code and utilities strictly governed by the **PolyForm Noncommercial License 1.0.0**.
+
+* **Allowed:** Free for personal experimentation, individual learning, testing, and academic research.
+* **Prohibited:** Commercial use, corporate deployment, resale, or monetization of this software in a business environment is strictly forbidden.
+
+For the full binding legal text, please see the accompanying [LICENSE.md](LICENSE.md) file.
+
 This extension is built for developers, researchers, and engineers who need a **repeatable, browser‑based probe** for evaluating local inference stacks such as Ollama, LM Studio, custom OpenAI‑compatible servers, or any localhost LLM endpoint.
 
 Everything runs locally. No external APIs, no telemetry, no network beyond your own machine.
