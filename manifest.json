@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "LLM Tester",
+  "version": "2.1.0",
+  "description": "Local LLM endpoint scanner and prompt tester with safe TPS/TTFT telemetry.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAptEm5WrVe0M9WwuFUqiyfSKCgzeX/09smXsX77CGc6ESzzLqWoOW5D+9fWr6iEXlwUYjcWeQ5T+6WboEhjIiWPsDSM5Nyz0a/4BFSA+wAwEK+gO4eYiP5baTVfH5NTeulg5cJdBjeNDr0SdQwi0RfCDOAAuJTJgiSTw6MSxYQakhNOuul4+IIcwVsJR8yLtwioExt7vhIAIBgyq0QJRkyufwuGfcq/APQqrUo9Jng5wCIPwW97xO/fBwwiIv0qKe2Z8mOUnxAUDuFzgwYblz+E7i38lOWOEveIpOnB/6iuR+dcvkBc6uXiZOQirnd+ghtT9QqeZveJoj+xlMvpTbPwIDAQAB",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "http://localhost/*",
+    "http://127.0.0.1/*",
+    "http://localhost:*/*",
+    "http://127.0.0.1:*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "LLM Tester",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "externally_connectable": {
+    "ids": [
+      "iifaaepbhbndbgjegphijdhebeiaoiai"
+    ]
+  }
+}
