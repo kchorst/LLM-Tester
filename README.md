@@ -2,6 +2,8 @@
 
 LLM Tester scans common local LLM endpoints, shows a detected model/server, lets the user run a prompt only after choosing **Run test prompt**, and shares only safe run metrics with Sentinel+.
 
+Licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You are free to share and adapt these materials for any purpose, including commercial use, as long as you give appropriate credit, provide a link to the license, and indicate if changes were made. License details: https://creativecommons.org/licenses/by/4.0/
+
 ## Core behavior
 
 - Opens in scanning state.
